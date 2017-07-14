@@ -7,7 +7,6 @@ public class Literale {
 		/*
 		 * int - Literale
 		 */
-
 		int x1 = 12;			// dezimal
 		int x2 = +12;
 		int x3 = -12;

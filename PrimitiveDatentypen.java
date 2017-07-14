@@ -17,6 +17,7 @@ public class PrimitiveDatentypen {
 		System.out.println( Long.MAX_VALUE );
 		
 		float f;		// 32 bit
+		System.out.println( Float.MAX_VALUE );		
 		double d;		// 64 bit
 		
 		/*
