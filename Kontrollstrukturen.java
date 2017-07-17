@@ -81,7 +81,7 @@ public class Kontrollstrukturen {
 	        	}else {
 	        		System.out.print(t + " ");
 	        	}
-			}
+	        }
 	        System.out.println();
 	    }		
 	}
