@@ -5,9 +5,9 @@ public class UseEclipse {
 	
 	public static void main(String[] args) {
 		Calendar datum1 = Calendar.getInstance();
-		datum1.set(2017, Calendar.JANUARY, 1);
+		datum1.set(1961, Calendar.DECEMBER, 4);
 		Calendar datum2 = Calendar.getInstance();
-		datum2.set(2017, Calendar.FEBRUARY, 1);
+		datum2.set(2017, Calendar.JULY, 18);
 		System.out.println(Tage(datum1,datum2));
 	}
 	
@@ -15,7 +15,7 @@ public class UseEclipse {
 		int mResult = 0;
 		int mJahr1 = aDatum1.get(Calendar.YEAR);
 		int mJahr2 = aDatum2.get(Calendar.YEAR);
-		for (int jahr = mJahr1; jahr < mJahr2; jahr++) {
+		for (int jahr = mJahr1; jahr <= mJahr2; jahr++) {
 			int mVonMonat = jahr == mJahr1 ? aDatum1.get(Calendar.MONTH) : Calendar.JANUARY; 
 			int mBisMonat = jahr == mJahr2 ? aDatum2.get(Calendar.MONTH) : Calendar.DECEMBER;
 			for (int monat = mVonMonat; monat < mBisMonat; monat++) {
