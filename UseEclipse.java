@@ -5,10 +5,11 @@ public class UseEclipse {
 	
 	public static void main(String[] args) {
 		Calendar datum1 = Calendar.getInstance();
-		datum1.set(1961, Calendar.DECEMBER, 4);
+		datum1.set(2016, Calendar.FEBRUARY, 1);
+		
 		Calendar datum2 = Calendar.getInstance();
-		datum2.set(2017, Calendar.JULY, 18);
-		System.out.println(Tage(datum1,datum2));
+		datum2.set(2017, Calendar.JULY, 19);
+		System.out.println( "  " + Tage(datum1,datum2));
 	}
 	
 	static int Tage(Calendar aDatum1, Calendar aDatum2){
