@@ -1,16 +1,18 @@
 package Geometrie;
 
 public class Rechteck {
-	int breite, hoehe;
-	void zeichne(){
-		for (int i = 0; i < hoehe; i++) {
-			for (int j = 0; j < breite; j++) {
-				System.out.print('*');
-			}
-			System.out.println(' ');
-		}
+	public int breite, hoehe;
+	public String toString() {
+		return "Rechteck (" + breite + " X " + hoehe +")";
+	}
+	
+	public void ChangeDim(int aBreite, int aHoehe) {
+		breite = aBreite;
+		hoehe = aHoehe;
+	}
+	
+	public static void ChangeDim(Rechteck aRechteck,int aBreite, int aHoehe) {
+		aRechteck.breite = aBreite;
+		aRechteck.hoehe = aHoehe;
 	}
 }
-
-
-
